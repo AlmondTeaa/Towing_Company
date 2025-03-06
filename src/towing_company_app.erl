@@ -11,7 +11,8 @@
 
 start(_StartType, _StartArgs) ->
     Dispatch = cowboy_router:compile([{
-    '_', [
+    '_', [  
+            {"/api/auth/register", auth_register_handler, []},
             {"/api/auth/login", auth_login_handler, []},
             {"/api/auth/me", auth_me_handler, []}
         ]}
