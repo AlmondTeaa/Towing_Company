@@ -1,12 +1,1 @@
-{
-  "Jos Constantine Almonte": 
-    {
-      "EmployeeID" : "2024-ENGR-0005",
-      "password" : "qwerty12345"
-    },
-  "Tamra Villanueva" :
-    {
-      "EmployeeID" : "1234-MRKT-01023",
-      "password" : "12345qwerty"
-    }
-}
+{"Asuncion Naval":{"EmployeeId":"1234-ACCT-000010","Password":"0fdg34"},"Jos Constantine Almonte":{"EmployeeID":"2024-ENGR-0005","password":"qwerty12345"},"Juan Cruz":{"EmployeeId":"1800253","Password":"123321213"},"Tamra Villanueva":{"EmployeeID":"1234-MRKT-01023","password":"12345qwerty"}}

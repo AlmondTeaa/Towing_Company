@@ -18,4 +18,5 @@ content_types_provided(Req, State) ->
 get_json(Req, State) ->
   Priv_directory = code:priv_dir(towing_company),
   {ok, Json} = file:read_file(Priv_directory ++ "/users/admins.json"),
+  io:format("Data get~n"),
   {Json, Req, State}.
